@@ -8,6 +8,11 @@ steps:
   settings:
     repo: chluehr/phpmd
     auto_tag: true
+    tags:
+      - latest
+      - '2.15.0'
+      - '2.15'
+      - '2'
     username: 
         from_secret: docker_username
     password: 
